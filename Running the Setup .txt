@@ -1,0 +1,11 @@
+#Terraform Commands
+
+terraform init
+terraform apply
+
+
+#Ansible Command
+ansible-playbook site.yml
+
+#Note: This setup will create the required infrastructure in AWS using Terraform and configure the web server using Ansible. 
+Ensure to replace placeholders (like <web-server-private-ip> and ~/.ssh/my-key-pair.pem) with actual values based on your setup.
